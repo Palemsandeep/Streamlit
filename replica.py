@@ -17,7 +17,7 @@ def main():
 
 
 
-	col1, col2, col3 = st.columns([2,8,2])
+	col1, col2, col3 = st.columns([3,8,2])
 	with col1:
 		st.write("")
 	with col2:

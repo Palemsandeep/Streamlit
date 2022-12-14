@@ -4,7 +4,6 @@ from pynput.keyboard import Key,Controller
 
 def main():
 	st.set_page_config(layout="wide")
-	# st.set_option('server.runOnSave', True)
 	global select2
 	global select3
 	select2 = None 
@@ -32,7 +31,6 @@ def main():
 	st.markdown("<h1 style='text-align: center; color: Blue;font-size: 25px;'>MLOPS Built On Google Cloud and Streamlit</h1>", unsafe_allow_html=True)
 	st.markdown("<h1 style='text-align: center; color: Black;font-size: 18px;'>Problem Statement : Develop a Retail Machine Learning Applications (MLOPS): Customer Churn: Who is Going to Churn, When the Churn will Occur, Why it Occurs, and How to Prevent?</h1>", unsafe_allow_html=True)
 	st.markdown("______________________________________________________________________________________________________________________________________________")
-	# st.write(":heavy_minus_sign:" * 34)
 
 	c11,c12,c13 = st.columns((1,2.5,1))
 	with c11:

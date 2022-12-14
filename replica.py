@@ -1,6 +1,5 @@
 import streamlit as st
 from PIL import Image
-from pynput.keyboard import Key,Controller
 
 def main():
 	st.set_page_config(layout="wide")

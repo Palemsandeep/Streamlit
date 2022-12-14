@@ -22,7 +22,7 @@ def main():
 		st.write("")
 	with col2:
 		img = Image.open("Deepsphere_image.png")
-		st.image(img,width=800)
+		st.image(img,width=700)
 	with col3:
 		st.write("")
 

@@ -36,7 +36,7 @@ def main():
 		st.write("")
 		st.write("")
 		st.write("")
-		st.markdown("**Problem Statement**")
+		st.markdown("##### **Problem Statement**")
 	with c12:
 		select1 = st.selectbox("",['Select the problem Statement','customer Churn : Who is going to churn?','Customer Churn : When will the churn occur?','Customer Churn : Why does the churn occurs?'],key = "key1")
 	with c13:
@@ -51,7 +51,7 @@ def main():
 			st.write("")
 			st.write("")
 			st.write("")
-			st.markdown("**Problem type**")
+			st.markdown("##### **Problem type**")
 	with c22:
 		if select1 in st_list1:
 			select2 = st.selectbox("",['Select the problem type','Classfication','Regression','Clustering','Continued Decision Making'])
@@ -66,7 +66,7 @@ def main():
 			st.write("")
 			st.write("")
 			st.write("")
-			st.markdown("**Model Selection**")
+			st.markdown("##### **Model Selection**")
 	with c32:
 		if select2 in st_list2:
 			select3 = st.selectbox("",['Select the Model','Decision Tree','Random Forest','Logistic Regression','Linear Regression','k Means Clustering'])
@@ -80,7 +80,7 @@ def main():
 			st.write("")
 			st.write("")
 			st.write("")
-			st.markdown("**Upload File**")
+			st.markdown("##### **Upload File**")
 	with c42:
 		if select3 in st_list3:
 			uploaded_file = st.file_uploader("Upload a csv file",type=['csv'])

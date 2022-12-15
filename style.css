@@ -10,8 +10,8 @@ div.css-6qob1r.e1fqkh3o3 {
     top: 2px;
     background-color: rgb(240, 242, 246);
     z-index: 999991;
-    min-width: 400px;
-    max-width: 400px;
+    min-width: 300px;
+    max-width: 300px;
     transform: none;
     transition: transform 300ms ease 0s, min-width 300ms ease 0s, max-width 300ms ease 0s;
 }
@@ -23,10 +23,10 @@ div.css-6qob1r.e1fqkh3o3 {
     -webkit-box-pack: center;
     justify-content: center;
     font-weight: 500;
-    font-size: 1.5rem;
-    padding: 1rem 1rem;
+    font-size: 1.4rem;
+    padding: 0.8rem 0.8rem;
     border-radius: 0.25rem;
-    margin-left: 100px;
+    margin-left: 55px;
     line-height: 1.6;
     color: inherit;
     width: 150px;

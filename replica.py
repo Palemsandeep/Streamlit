@@ -6,6 +6,8 @@ def main():
 	st.set_page_config(layout="wide")
 	global select2
 	global select3
+	global select4 
+	select4 = None
 	select2 = None 
 	select3 = None
 

@@ -107,6 +107,18 @@ def main():
 		st.markdown("")
 	with c45:
 		st.markdown("")
+		
+	c61,c62,c63 = st.columns((7,3,5))
+
+	with c61:
+		st.markdown("")
+	with c62:
+		if select4 is True:
+			st.markdown("")
+			st.markdown("")
+			st.button("Download")
+	with c63:
+		st.markdown("")
 
 	st.sidebar.selectbox('Menu',["Home",'Model Validation','Download Model Outcome','Data Visualization','Deploy the Model'],key='key2')
 	st.sidebar.selectbox("",['Library Used','Streamlit','Pandas','Ipython.display','sklearn.linear_model'],key='key3')
